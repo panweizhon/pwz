@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+
+    <!-- 引入样式和js文件 -->
+    <link rel="stylesheet" type="text/css" href="css/mobileSelect.css">
+    <script src="js/mobileSelect.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="contain">
+        <div class="fixWidth">
+            <div class="demo">
+                <div id="trigger1">单项选择</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script>
+    var weekdayArr = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+    var mobileSelect1 = new MobileSelect({
+        trigger: '#trigger1',
+        title: '单项选择',
+        wheels: [{
+            data: weekdayArr
+        }],
+        position: [2], //初始化定位 打开时默认选中的哪个 如果不填默认为0
+        transitionEnd: function(indexArr, data) {
+            console.log(data);
+        },
+        callback: function(indexArr, data) {
+            console.log(data);
+        }
+    });
+</script>

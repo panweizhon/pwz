@@ -1,0 +1,68 @@
+html,
+body,
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    /* width: 3.75rem;
+    height: 6.67rem; */
+    background-image: url(../img/图层\ 26@2x.png);
+    background-size: 370% 169%;
+    background-repeat: no-repeat;
+    background-position: -4.51rem -0.13rem;
+    overflow: hidden;
+}
+
+.box-logo {
+    width: 100%;
+    margin-top: 0.95rem;
+    margin-bottom: 0.38rem;
+}
+
+.box-logo img {
+    width: 1.06rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.box-wz {
+    width: 1.97rem;
+    height: 0.16rem;
+    font-size: 0.16rem;
+    font-family: PingFangSC;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 0.11rem;
+    opacity: 0.8;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 1.32rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.color-one {
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    color: #5698F1;
+}
+
+.color-two {
+    border: 0px solid rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.btn button {
+    width: 2.71rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    font-size: 0.151rem;
+    margin: 0.1rem auto;
+}

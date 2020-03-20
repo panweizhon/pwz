@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/message.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <div class="top">
+                <i><img src="./img/返回按钮.png" alt=""></i>
+                <p>消息列表</p>
+            </div>
+        </header>
+        <section>
+            <div class="content">
+                <!-- <div class="nr">
+                    <div class="logo">
+                        <img src="./img/360logi.png" alt="">
+                    </div>
+                    <div class="content-right">
+                        <p class="nr-top">
+                            候选人为陈万先的委托,由CBC信用管理有限 公司核查完成，请进入委托界面查看详情
+                        </p>
+                        <div class="nr-bottom">
+                            <div class="nr-bottom-left">
+                                <span> <img src="./img/日历.png" alt=""></span>
+                                <i>2018-03-13</i>
+                            </div>
+                            <div class="nr-bottom-right">
+                                <span><img src="./img/zhongbiao.png" alt=""></span>
+                                <i>14:20</i>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
+<script src="./js/font-auto.js"></script>
+<script src="./js/jquery.js"></script>
+<script src="./js/Data2.js"></script>
+<script>
+    console.log(news.data)
+    var $data = news.data
+    $(function() {
+        for (i = 0; i < $data.length; i++) {
+            var $nr = `
+            <div class="nr">
+                    <div class="logo">
+                        <img src="${$data[i].logo}" alt="">
+                    </div>
+                    <div class="content-right">
+                        <p class="nr-top">
+                            ${$data[i].content}
+                        </p>
+                        <div class="nr-bottom">
+                            <div class="nr-bottom-left">
+                                <span> <img src="./img/日历.png" alt=""></span>
+                                <i>${$data[i].date1}</i>
+                            </div>
+                            <div class="nr-bottom-right">
+                                <span><img src="./img/zhongbiao.png" alt=""></span>
+                                <i>${$data[i].time}</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `
+            $('.content').append($nr)
+        }
+    })
+</script>

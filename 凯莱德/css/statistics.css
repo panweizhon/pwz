@@ -1,0 +1,149 @@
+html,
+body,
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 10rem;
+    background-color: pink; */
+}
+
+.box-serach {
+    width: 100%;
+    height: 0.47rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(265deg, rgba(90, 144, 237, 1) 8%, rgba(76, 167, 248, 1) 100%);
+}
+
+.box-serach>input {
+    width: 85%;
+    height: 0.3rem;
+    background: linear-gradient(265deg, rgba(90, 144, 237, 0.2) 8%, rgba(76, 167, 248, 1) 20%);
+    box-shadow: 0px 1px 5px 0px rgba(7, 43, 105, 0.43);
+    /*  */
+    border-radius: 0.14rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: absolute;
+    left: 0.12rem;
+    top: 0.08rem;
+    padding-left: 0.3rem;
+    box-sizing: border-box;
+    font-size: 0.14rem;
+}
+
+.box-serach>input::-webkit-input {
+    opacity: 0.2;
+}
+
+input::-webkit-input-placeholder {
+    color: #FFFFFF;
+    /* opacity: 0.2; */
+}
+
+input::-moz-input-placeholder {
+    color: #FFFFFF;
+}
+
+input::-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+.box-serach>img:first-child {
+    width: 0.14rem;
+    height: 0.14rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.34rem;
+    z-index: 99;
+}
+
+.box-serach>img:last-child {
+    width: 0.18rem;
+    height: 0.18rem;
+    position: absolute;
+    right: 0.14rem;
+    top: 0.3rem;
+    z-index: 99;
+}
+
+.box-bing {
+    width: 100%;
+    height: 2rem;
+    border-bottom: 1px solid #DDDDDD;
+    /* background-color: aqua; */
+}
+
+.box-bing div {
+    width: 100%;
+}
+
+.box-bing>div:first-child {
+    width: 100%;
+    height: 0.37rem;
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 0.15rem;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(73, 73, 73, 1);
+    line-height: 0.37rem;
+    padding-left: 0.25rem;
+    box-sizing: border-box;
+}
+
+.box-bing>div:last-child {
+    margin: 0 auto;
+}
+
+.box-zhu {
+    width: 100%;
+}
+
+.box-zhu div {
+    width: 100%;
+}
+
+.box-bottom {
+    width: 100%;
+    height: 0.44rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.26);
+}
+
+.box-bottom-dl {
+    width: 20%;
+    text-align: center;
+}
+
+.box-bottom-dl>dt {
+    width: 100%;
+}
+
+.box-bottom-dl>dd {
+    width: 100%;
+    font-size: 0.09rem;
+    font-family: PingFangSC;
+    color: rgba(124, 124, 124, 1);
+}
+
+.box-bottom-dl img {
+    width: 0.19rem;
+    height: 0.19rem;
+    display: block;
+    margin: 0 auto;
+}

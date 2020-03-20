@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/indexy.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <div class="search">
+                <i><img src="./img/要的搜索按钮.png" alt=""></i>
+                <input class="sousuo" type="text" placeholder="搜索委托人姓名">
+            </div>
+            <div class="news">
+                <img src="./img/消息logo.png" alt="">
+                <i>消息</i>
+            </div>
+        </header>
+        <section>
+            <div class="wheel">
+                <img src="./img/蓝色图图.png" alt="">
+            </div>
+            <!-- 内容 -->
+            <div class="conter">
+                <!-- <div class="nr">
+                    <div class="nr-left">
+                        <img src="./img/百度logo.png" alt="">
+                    </div>
+                    <div class="nr-content">
+                        <p class="p1">中美史克 - 王婧婧 <i>03月21日</i></p>
+                        <p class="p2">行业咨询的介绍行业咨询的介绍行业咨询的介...
+                            <i><img class="imgbtn" src="./img/下拉按钮2.png" alt=""></i>
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+            <!--  -->
+
+        </section>
+        <!-- 底部 -->
+        <footer>
+            <div class="nav">
+                <div class="nav-top"> <img src="./img/首页蓝色.png" alt="">
+                </div>
+                <i>首页</i>
+            </div>
+            <div class="nav">
+                <div class="nav-top"> <img src="./img/委托底部.png" alt="">
+                </div>
+                <i>委托</i>
+            </div>
+            <div class="nav">
+                <div class="nav-top"> <img src="./img/核查底部.png" alt="">
+                </div>
+                <i>核查</i>
+            </div>
+            <div class="nav">
+                <div class="nav-top"> <img src="./img/统计底部.png" alt="">
+                </div>
+                <i>统计</i>
+            </div>
+            <div class="nav">
+                <div class="nav-top"> <img src="./img/我的底部.png" alt="">
+                </div>
+                <i>我的</i>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
+<script src="./js/data.js"></script>
+<script src="./js/font-auto.js"></script>
+<script src="./js/jquery.js"></script>
+<script>
+    $(function() {
+        $data = mes.data
+        console.log($data)
+        for (i = 0; i < $data.length; i++) {
+            console.log($data[i])
+            var $nr = `
+                <div class="nr">
+                    <div class="nr-left">
+                        <img src="${$data[i].logo}" alt="">
+                    </div>
+                    <div class="nr-content">
+                        <p class="p1">${$data[i].name}<i>${$data[i].subTime}</i></p>
+                        <p class="p2">
+                            <span>${$data[i].details}</span>
+                            <i class="imgbtn"><img  src="./img/下拉按钮2.png" alt=""></i>
+                        </p>
+                    </div>
+                </div>
+                `
+            $('.conter').append($nr)
+        }
+
+        // $('imgbtn').click(function() {
+        //     alert('55555')
+        // })
+        $('.imgbtn').click(function() {
+            console.log($(this).css)
+            if ($(this).prev().css('overflow') == 'hidden') {
+                $(this).prev().css({
+                    'white-space': 'normal',
+                    'overflow': 'auto'
+                })
+            } else {
+                $(this).prev().css({
+                    'white-space': 'nowrap',
+                    'overflow': 'hidden'
+                })
+            }
+
+        })
+    })
+</script>

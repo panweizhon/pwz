@@ -1,0 +1,369 @@
+html,
+body,
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    width: 100%;
+    height: 1.66rem;
+    background-image: url(../img/头部背景.png);
+    margin-bottom: 0.085rem;
+}
+
+.icon {
+    margin-top: 0.09rem;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    position: relative;
+}
+
+.icon img {
+    margin-right: 0.15rem;
+}
+
+.icon .posit {
+    position: absolute;
+    top: -0.03rem;
+    right: -0.04rem;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-tx {
+    width: 0.57rem;
+    height: 0.57rem;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    margin: 0.29rem 0.12rem 0 0.16rem;
+}
+
+.content-tx img {
+    display: flex;
+    width: 100%;
+}
+
+.content-nr {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.content-nr-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content-nr-top-icon1 {
+    width: 0.63rem;
+    height: 0.17rem;
+    background-image: url(../img/有笔规则.png);
+    font-size: 0.1rem;
+    font-family: PingFangSC;
+    font-weight: bold;
+    color: rgba(130, 104, 52, 1);
+    text-align: center;
+    line-height: 0.17rem;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+}
+
+.content-nr-top-icon2 {
+    margin-left: 0.13rem;
+}
+
+.id {
+    font-size: 16px;
+    font-family: PingFangSC;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 11px;
+    margin-top: 0.1rem;
+}
+
+.it {
+    width: 0.95rem;
+    height: 0.15rem;
+    background: rgb(67, 141, 224);
+    border-radius: 1px;
+    margin-top: 0.107rem;
+    font-size: 0.09rem;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-bottom: 0.26rem;
+}
+
+.personal {
+    widows: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.personal .name {
+    position: relative;
+}
+
+.personal>.name>i {
+    position: absolute;
+    left: -0.16rem;
+    top: 0;
+    margin-left: 0.05rem;
+}
+
+.personal>.name>span {
+    font-size: 10px;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.personal>.phone {
+    position: relative;
+    margin-left: 0.25rem;
+}
+
+.personal>.phone>i {
+    position: absolute;
+    left: -0.15rem;
+    top: 0;
+    margin-left: 0.05rem;
+}
+
+.personal>.phone>span {
+    font-size: 10px;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.personal>.email {
+    position: relative;
+    margin-left: 0.25rem;
+}
+
+.personal>.email>i {
+    position: absolute;
+    left: -0.15rem;
+    top: 0;
+    margin-left: 0.05rem;
+}
+
+.personal>.email>span {
+    font-size: 10px;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* 蓝色部分完 */
+
+.invitation {
+    width: 100%;
+    height: 0.42rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 0.157rem;
+}
+
+.invitation .yq {
+    font-size: 12px;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(73, 73, 73, 1);
+    margin-left: 0.09rem;
+}
+
+.invitation .code {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+}
+
+.invitation>.code i {
+    margin-right: 0.1rem;
+}
+
+.invitation>.code .d {
+    position: absolute;
+    right: 0.16rem;
+    top: 0.02rem;
+}
+
+
+/* 二维码完 */
+
+.enterprise {
+    width: 100%;
+    height: 1.553rem;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin-top: 0.084rem;
+}
+
+.enterprise-top {
+    height: 0.36rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.enterprise-top-x {
+    width: 0.9rem;
+    height: 0.02rem;
+    background: rgba(233, 233, 233, 1);
+    position: relative;
+}
+
+.wz {
+    font-size: 13px;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(119, 119, 119, 1);
+    background: white;
+    position: absolute;
+    top: -0.1rem;
+    left: 0.16rem;
+    padding: 0 0.04rem;
+}
+
+.enterprise-center {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.enterprise-center_z {
+    width: 1.1rem;
+    height: 1.1rem;
+    border: 1px solid rgba(225, 225, 225, 1);
+    margin-left: 0.136rem;
+}
+
+.mag {
+    margin-left: 0.09rem;
+}
+
+.enterprise-center_z dl {
+    display: flex;
+    flex-direction: column;
+}
+
+.enterprise-center_z>dl dt {
+    width: 100%;
+}
+
+.enterprise-center_z>dl>dt img {
+    width: 100%;
+    display: block;
+}
+
+.enterprise-center_z>dl>dd {
+    font-size: 11px;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(68, 68, 68, 1);
+    text-align: center;
+    margin-top: 0.07rem;
+}
+
+
+/* 三证完 */
+
+.manage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 0.084rem;
+}
+
+.manage-right {
+    width: 100%;
+    height: 0.426rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.manage-right-content {
+    width: 95%;
+    height: 100%;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.manage-right-content span {
+    font-size: 14px;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+}
+
+.manage-right-content i {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 0.28rem;
+    flex-grow: 1;
+}
+
+.none {
+    border: none;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+/* 底部 */
+
+footer {
+    width: 100%;
+    height: 0.46rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.nav {
+    margin-top: 0.05rem;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav i {
+    color: #7C7C7C;
+    font-size: 0.1rem;
+}

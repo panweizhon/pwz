@@ -1,0 +1,146 @@
+html,
+body,
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #f5f5f5;
+    background-color: #fff;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 0.47rem;
+    align-items: center;
+    position: relative;
+}
+
+.top i {
+    margin: 0 auto
+}
+
+.top span {
+    position: absolute;
+    left: 0.12rem;
+    top: 0.15rem;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.08rem;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fff;
+}
+
+.content-nr {
+    width: 95%;
+    height: 0.43rem;
+    border-bottom: 1px solid #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content-nr-left {
+    font-size: 14px;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+}
+
+.none {
+    border: none;
+}
+
+.input {
+    height: 0.34rem;
+    margin-left: 0.22rem;
+    border-right: 1px solid #f5f5f5;
+}
+
+.input input {
+    height: 100%;
+    font-size: 0.14rem;
+}
+
+.hq {
+    font-size: 14px;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(84, 136, 225, 1);
+    margin: 0 auto;
+}
+
+.yzm {
+    display: flex;
+    flex-grow: 1;
+    height: 0.34rem;
+    margin-left: 0.22rem;
+}
+
+.yzm input {
+    width: 100%;
+    height: 0.34rem;
+    font-size: 14px;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(199, 199, 204, 1);
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    margin-top: 0.28rem;
+}
+
+.btn button {
+    font-size: 16px;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(244, 250, 255, 1);
+    border: none;
+    outline: none;
+    background: linear-gradient(-90deg, rgba(90, 144, 237, 1) 22%, rgba(76, 167, 248, 1) 100%);
+    border-radius: 0.05rem;
+    padding: 0.14rem 0.94rem;
+    margin: 0 auto;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.wz {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 0.26rem;
+}
+
+footer>.wz i {
+    font-size: 10px;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: #666666;
+    margin: 0 auto;
+}

@@ -1,0 +1,245 @@
+html,
+body,
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+
+/* 顶部 */
+
+header {
+    width: 100%;
+    height: 0.47rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+
+button {
+    background-color: white;
+    border: none;
+    margin-left: 0.17rem;
+}
+
+.zc {
+    width: 3.38rem;
+    text-align: center;
+    line-height: 0.47rem;
+    color: #494949;
+    font-size: 0.1571rem;
+}
+
+
+/* 中间注册详细 */
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin {
+    width: 100%;
+    height: 2.719rem;
+    background: white;
+    margin-top: 0.08rem;
+}
+
+.admin-mc {
+    width: 95%;
+    height: 0.46rem;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.19rem;
+    align-items: center;
+}
+
+.mc {
+    text-align: center;
+    line-height: 0.46rem;
+    color: #333333;
+    font-size: 0.139rem;
+}
+
+.right-xq {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+    line-height: 0.46rem;
+    color: #666666;
+    font-size: 0.139rem;
+    padding-right: 0.12rem;
+    box-sizing: border-box;
+}
+
+.admin-lx {
+    width: 95%;
+    height: 0.46rem;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.19rem;
+}
+
+.admin-right {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 0.12rem;
+    box-sizing: border-box;
+}
+
+.admin-right img {
+    display: block;
+    width: 0.06rem;
+    height: 0.11rem;
+}
+
+.busin {
+    width: 95%;
+    height: 1.3rem;
+    margin-left: 0.19rem;
+    margin-bottom: 0.08rem;
+}
+
+.busin-top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 0.46rem;
+    line-height: 0.46rem;
+}
+
+.busin-top>.left {
+    font-size: 0.14rem;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+}
+
+.busin-top>.right {
+    font-size: 0.1rem;
+    color: #999999;
+    margin-left: 0.06rem;
+}
+
+.busin-top>.right i {
+    color: #FF4A4A;
+}
+
+.busin-get {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 0.81rem;
+}
+
+.busin-get-ys {
+    width: 1.1rem;
+    height: 0.81rem;
+    border: 0.01rem solid rgba(225, 225, 225, 1);
+    background: rgba(251, 251, 251, 1);
+    position: relative;
+}
+
+.busin-get-ys img {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.top-img {
+    width: 100%;
+    height: 0.51rem;
+    display: flex;
+    align-items: center;
+}
+
+.gs {
+    margin: 0 auto;
+}
+
+.bottom-wz {
+    width: 100%;
+    font-size: 0.11rem;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+}
+
+.mg-left {
+    margin-left: 0.06rem;
+}
+
+.mangae {
+    width: 100%;
+    /* height: 1.317rem; */
+    background: #fff;
+    margin-bottom: 0.09rem;
+}
+
+.name {
+    font-size: 14px;
+    text-align: right;
+    display: flex;
+    flex-grow: 1;
+    padding-right: 0.12rem;
+    box-sizing: border-box;
+    height: 0.32rem;
+}
+
+.yzm {
+    width: 95%;
+    height: 0.46rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.19rem;
+    align-items: center;
+}
+
+.yqm {
+    width: 100%;
+    background: #fff;
+}
+
+.code {
+    height: 0.32rem;
+    border-right: 1px solid rgba(221, 221, 221, 1);
+}
+
+.sr {
+    display: flex;
+    flex-grow: 1;
+    color: #5488E1;
+    font-size: 0.14rem;
+    flex-direction: row-reverse;
+    padding-right: 0.12rem;
+    height: 0.36rem;
+    margin-left: 0.01rem;
+}
+
+.register {
+    width: 100%;
+    margin-top: 0.27rem;
+    height: 0.459rem;
+}
+
+.register-btn {
+    width: 90%;
+    height: 100%;
+    background-color: #C9E2F7;
+    color: #E4F1FB;
+    font-size: 0.16rem;
+    border-radius: 0.05rem;
+}
+
+.bottom {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.1rem;
+    margin-top: 0.15rem;
+    color: #999999;
+}
